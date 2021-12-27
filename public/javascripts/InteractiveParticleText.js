@@ -11,6 +11,8 @@ const mouse = {
     radius: 120
 };
 
+let abc = 0;
+
 window.addEventListener('mousemove', function(event){
     mouse.x = event.x;
     mouse.y = event.y;
